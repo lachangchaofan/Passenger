@@ -1,0 +1,103 @@
+html {
+    background: #e5e5e5;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: "微软雅黑", "黑体", Helvetica, Arial, Tahoma, sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    word-break: break-all;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.page-wrap, .page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page-bg{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+}
+
+.page-wrap{
+    background-position: 0 55%;
+    /*background-image: url(../img/home/starsky.png);*/
+    width: 100%;
+}
+
+/*首页*/
+.page-home{
+    background-image: url(../resources/images/home/bg.png);
+}
+
+.home-ship{
+    background-image: url(../resources/images/common/ship.png);
+    width: 25%;
+    height: 12.5%;
+    top: 49%;
+    left: 52%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.home-start{
+    background-image: url(../resources/images/home/start.png);
+    width: 57.07%;
+    height: 9.15%;
+    top: 87%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.home-jump{
+    background-color: rgba(0,0,0,0.9);
+}
+
+.home-diret{
+    background-image: url(../resources/images/home/jump.png);
+    width: 74.7%;
+    height: 49.55%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+/*游戏页*/
+.page-play{
+    /*background-color: rgb(0,0,0);*/
+}
